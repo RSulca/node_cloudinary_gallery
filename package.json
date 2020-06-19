@@ -1,0 +1,23 @@
+{
+  "name": "galeria-node-mongodb",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node src/index.js"
+  },
+  "author": "Raúl Sulca",
+  "license": "ISC",
+  "dependencies": {
+    "cloudinary": "^1.22.0",
+    "cross-env": "^7.0.2",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-handlebars": "^4.0.4",
+    "fs-extra": "^9.0.1",
+    "mongoose": "^5.9.19",
+    "morgan": "^1.10.0",
+    "multer": "^1.4.2"
+  }
+}
